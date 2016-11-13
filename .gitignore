@@ -8,3 +8,5 @@ phpunit.xml.dist
 composer      
 nbproject/
 db.sql
+
+public/themes/default/bower_components
