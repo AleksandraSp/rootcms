@@ -1,9 +1,10 @@
 {
-  "name": "rootcms",
+  "name": "rootcms - default theme",
   "version": "0.0.1",
   "directory": "public/themes/default/",
   "dependencies": {
     "bootstrap": "3.x",
-    "jquery": "3.x"
+    "jquery": "3.x",
+    "angular":"1.x"
   }
 }
