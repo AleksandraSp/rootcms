@@ -1,0 +1,24 @@
+header {
+    width: 100%;
+    nav.menu-bar {
+        height: $header-height;
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li {
+                padding-top: 13px;
+            }
+        }
+        .auth-menu {
+            li.hide {
+                display: none;
+            }
+        }
+    }
+    
+}
+
+
+
+

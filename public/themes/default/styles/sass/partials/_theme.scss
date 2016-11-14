@@ -1,0 +1,27 @@
+//layout
+body {
+    background-color: $color-white;
+}
+//headr
+header {
+    z-index: 1000;
+    position: relative;
+    nav {
+        background-color: $color-medium;
+    }
+}
+//main
+main {
+    z-index: 900;
+    > .container {
+        background-color: $color-light;
+        box-shadow: 0px 0px 30px;
+    }
+    
+}
+
+//footer
+footer {
+    z-index: 1000;
+    background-color: $color-medium;
+}

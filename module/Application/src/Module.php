@@ -11,7 +11,7 @@ namespace Application;
 class Module
 {
     const VERSION = '3.0.2dev';
-    const CURRENT_THEME = 'blue';
+    const CURRENT_THEME = 'default';
 
     public function getConfig()
     {

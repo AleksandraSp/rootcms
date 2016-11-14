@@ -1,0 +1,24 @@
+//layout
+a {
+    color: $color-light;
+}
+a:hover {
+    color: $color-light;
+    text-decoration: underline;
+}
+a:active {
+    color: $color-light;
+    text-decoration: underline;
+}
+a:visited {
+    color: $color-light;
+    
+}
+
+p {
+    text-align: justify;
+    img {
+        float: left;
+        padding: 5px;
+    }
+}
