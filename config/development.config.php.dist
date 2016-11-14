@@ -5,10 +5,12 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
+return [];
+/*
 return [
     // Additional modules to include when in development mode
     'modules' => [
-    ],
+    ], 
     // Configuration overrides during development mode
     'module_listener_options' => [
         'config_glob_paths' => [realpath(__DIR__) . '/autoload/{,*.}{global,local}-development.php'],
@@ -16,3 +18,4 @@ return [
         'module_map_cache_enabled' => false,
     ],
 ];
+*/

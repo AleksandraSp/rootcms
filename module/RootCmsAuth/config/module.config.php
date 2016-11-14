@@ -3,16 +3,12 @@
 namespace RootCmsAuth;
 
 use Zend\Router\Http\Literal;
-use RootCmsAuth\Controller\RootCmsAuthController;
+use RootCmsAuth\Controller\RootCmsAuthControllerFactory;
 
 return [
     'controllers' => [
         'factories' => [
-            Controller\RootCmsAuthController::class => 
-            function($container) {
-                    $serv = $container->get('auth-service');
-                    return new RootCmsAuthController($serv);
-                },
+            Controller\RootCmsAuthController::class => RootCmsAuthControllerFactory::class
         ],
     ],
     'router' => [
